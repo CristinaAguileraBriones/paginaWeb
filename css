@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+
+    margin: 0;
+    font-family: 'noto';
+    
+}
+@font-face {
+    font-family: 'noto';
+    src: url(../fonts/NotoSansDisplay-Light.ttf);
+}
+@font-face {
+    font-family: 'Titulo';
+    src: url(../fonts/MonospaceTypewriter.ttf);
+    
+}
+@font-face {
+    font-family: 'notoTitulo';
+    src: url(../fonts/NotoSansDisplay-Bold.ttf);
+}
+h1{
+
+    font-family: 'Titulo';
+}
+h5{
+    font-family: '';
+}
+.sub{
+    font-family: 'Titulo';
+    text-decoration: underline;
+}
+
+.cover{
+
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1550399105-c4db5fb85c18?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    background-color: rgba(0, 0, 9, 0.45);
+    background-blend-mode: darken;
+}
+
+.cover2{
+
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    background-color: rgba(0, 0, 9, 0.45);
+    background-blend-mode: darken;
+
+    h1{
+        margin: 70px 30px 70px;
+        font-size: 1.75rem;
+
+    }
+
+
+}
+
+.card{
+
+    border: 0, !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0.1), 0, 2px, 4px -1px rgba(0, 0, 0.06);
+}
+.products {
+    overflow-x: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    white-space: nowrap;
+}
+
+.stripe-container {
+    display: flex;
+}
+
+.stripe-container .card {
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+    .container-map iframe {
+        width: 90%; /* Ancho del mapa al 100% del contenedor */
+        height: 600px; /* Altura del mapa, ajusta según sea necesario */
+        border: 0;
+    }
